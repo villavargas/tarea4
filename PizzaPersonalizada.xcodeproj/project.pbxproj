@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		51CCE7301CB0CE7400B2A154 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCE72F1CB0CE7400B2A154 /* AppDelegate.swift */; };
 		51CCE7321CB0CE7400B2A154 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCE7311CB0CE7400B2A154 /* ViewController.swift */; };
-		51CCE7351CB0CE7400B2A154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CCE7331CB0CE7400B2A154 /* Main.storyboard */; };
 		51CCE7371CB0CE7400B2A154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CCE7361CB0CE7400B2A154 /* Assets.xcassets */; };
 		51CCE73A1CB0CE7500B2A154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CCE7381CB0CE7500B2A154 /* LaunchScreen.storyboard */; };
+		51CCE7421CB0E36600B2A154 /* VistaResultados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCE7411CB0E36600B2A154 /* VistaResultados.swift */; };
+		51E859EA1CB16A5800CBD98F /* VistaMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E859E91CB16A5800CBD98F /* VistaMasa.swift */; };
+		51E859EC1CB178AE00CBD98F /* VistaQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E859EB1CB178AE00CBD98F /* VistaQueso.swift */; };
+		51E85A131CB1B85600CBD98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51E85A111CB1B85600CBD98F /* Main.storyboard */; };
+		51E85A151CB1BD9700CBD98F /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E85A141CB1BD9700CBD98F /* VistaIngredientes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51CCE72C1CB0CE7400B2A154 /* PizzaPersonalizada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaPersonalizada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CCE72F1CB0CE7400B2A154 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51CCE7311CB0CE7400B2A154 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51CCE7341CB0CE7400B2A154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51CCE7361CB0CE7400B2A154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51CCE7391CB0CE7500B2A154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51CCE73B1CB0CE7500B2A154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51CCE7411CB0E36600B2A154 /* VistaResultados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaResultados.swift; sourceTree = "<group>"; };
+		51E859E91CB16A5800CBD98F /* VistaMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaMasa.swift; sourceTree = "<group>"; };
+		51E859EB1CB178AE00CBD98F /* VistaQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaQueso.swift; sourceTree = "<group>"; };
+		51E85A121CB1B85600CBD98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51E85A141CB1BD9700CBD98F /* VistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		51CCE72E1CB0CE7400B2A154 /* PizzaPersonalizada */ = {
 			isa = PBXGroup;
 			children = (
+				51E85A141CB1BD9700CBD98F /* VistaIngredientes.swift */,
+				51E85A111CB1B85600CBD98F /* Main.storyboard */,
 				51CCE72F1CB0CE7400B2A154 /* AppDelegate.swift */,
 				51CCE7311CB0CE7400B2A154 /* ViewController.swift */,
-				51CCE7331CB0CE7400B2A154 /* Main.storyboard */,
 				51CCE7361CB0CE7400B2A154 /* Assets.xcassets */,
 				51CCE7381CB0CE7500B2A154 /* LaunchScreen.storyboard */,
 				51CCE73B1CB0CE7500B2A154 /* Info.plist */,
+				51CCE7411CB0E36600B2A154 /* VistaResultados.swift */,
+				51E859E91CB16A5800CBD98F /* VistaMasa.swift */,
+				51E859EB1CB178AE00CBD98F /* VistaQueso.swift */,
 			);
 			path = PizzaPersonalizada;
 			sourceTree = "<group>";
@@ -123,9 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E85A131CB1B85600CBD98F /* Main.storyboard in Resources */,
 				51CCE73A1CB0CE7500B2A154 /* LaunchScreen.storyboard in Resources */,
 				51CCE7371CB0CE7400B2A154 /* Assets.xcassets in Resources */,
-				51CCE7351CB0CE7400B2A154 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,27 +149,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CCE7321CB0CE7400B2A154 /* ViewController.swift in Sources */,
+				51E85A151CB1BD9700CBD98F /* VistaIngredientes.swift in Sources */,
+				51E859EC1CB178AE00CBD98F /* VistaQueso.swift in Sources */,
 				51CCE7301CB0CE7400B2A154 /* AppDelegate.swift in Sources */,
+				51CCE7421CB0E36600B2A154 /* VistaResultados.swift in Sources */,
+				51E859EA1CB16A5800CBD98F /* VistaMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51CCE7331CB0CE7400B2A154 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51CCE7341CB0CE7400B2A154 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51CCE7381CB0CE7500B2A154 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				51CCE7391CB0CE7500B2A154 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		51E85A111CB1B85600CBD98F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51E85A121CB1B85600CBD98F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +301,7 @@
 				51CCE7401CB0CE7500B2A154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
